@@ -1,0 +1,7 @@
+{
+    "collectors": {
+        "cloud": {
+            "token": "https://grafana.com/docs/grafana-cloud/testing/k6/author-run/tokens-and-cli-authentication/"
+        }
+    }
+}

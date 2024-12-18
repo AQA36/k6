@@ -1,0 +1,15 @@
+{
+    "name": "k6",
+    "version": "1.0.0",
+    "description": "https://aleksandarzhitenyov.grafana.net/a/cloud-home-app/onboarding-flow/start",
+    "scripts": {
+        "example:json": "k6 run --out json=test.json script.js",
+        "example:summary": "k6 run --summary-trend-stats=med,p(95),p(99.9) --out json=test.json script.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/k6": "^0.54.2"
+    }
+}
